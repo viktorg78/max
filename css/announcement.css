@@ -1,0 +1,107 @@
+.obl1{
+    width: 460px;
+    /* background-color: bisque;  */
+    margin-left: auto;
+    margin-right: auto;     
+    padding-top: 10px;  
+}
+.obl2{
+    width: 800px;
+    /* background-color: bisque;  */
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 10px;          
+}
+.tabl1{    
+    border: 3px solid #0093ff; 
+    width:100%;
+    text-align: center;
+    border-spacing: 7px 11px; /* Расстояние между ячейками */
+}
+.tabl2{     
+    width:100%;
+    text-align: center;
+    border-spacing: 7px 11px; /* Расстояние между ячейками */
+}
+.td1{    
+    white-space: nowrap;
+    vertical-align: top;
+    text-align: right;
+}
+.td1_1{    
+    vertical-align: top;
+    text-align: left;
+}
+.td2{    
+    vertical-align: top;
+    text-align: right;
+}
+.td3{    
+    vertical-align: top;
+    text-align: left;
+}
+.td1>span, .td2>span{
+    font-size: 1.1em;
+    color: red;
+}
+
+
+
+
+
+/* #podlogka{
+    float: left;
+    width: 98vw;
+    min-height: 82.5vh;
+    padding: 3% 1%; 
+} */
+/* #tabl1{
+    border-collapse: collapse; убираем пустые промежутки между ячейками
+    
+    width:98%;
+    text-align: center;
+} */
+/* #td1{
+    vertical-align: text-top;
+    width: 20%;
+    background-color: #ffffff;
+}
+
+#td1>span{
+    font-size: 1.1em;
+}
+
+#td2{
+    vertical-align: text-top;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#td2>span{
+    background-color:  #007a96;
+    color: #ffffff;
+    padding-bottom: 3px;
+    padding-top: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+
+#td3{
+    vertical-align: text-top;
+    width: 20%;
+    background-color: aquamarine;
+
+}
+#td_v{
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 3%;
+
+}
+.td_v>span{
+    font-size: 1.1em;
+} */
+
+
+

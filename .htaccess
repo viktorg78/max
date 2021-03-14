@@ -1,0 +1,16 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+#RewriteCond %{HTTPS} off
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^index?$ index.php [NC,L]
+RewriteRule ^regdata?$ regdata.php [NC,L]
+RewriteRule ^entrance?$ entrance.php [NC,L]
+RewriteRule ^personal_area?$ personal_area.php [NC,L]
+RewriteRule ^announcement?$ announcement.php [NC,L]
+RewriteRule ^announcement_arend?$ announcement_arend.php [NC,L]
+RewriteRule ^message?$ message.php [NC,L]
+#RewriteRule ^Index?$ index.php [NC,L]
+#RewriteRule ^InPersonal?$ InPersonal.php [NC,L]
+#RewriteRule ^Basket?$ Basket.php [NC,L]
+#RewriteRule ^Search?$ Search.php [NC,L]

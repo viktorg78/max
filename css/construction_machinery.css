@@ -1,0 +1,27 @@
+/*================================*/
+/*     Строительная техника       */
+/*================================*/
+
+#menu_construction_machinery{
+	float: left;
+	width: 96%;
+	padding: 1% 2%; 
+	position:relative;
+}
+/* Название параметров */
+#paragraph_name{ 
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-weight: 600;
+	padding-bottom: 1%;
+	letter-spacing: 1px;
+	
+}
+/* Кнопки параметров */
+#paragraph{
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 1%;
+}

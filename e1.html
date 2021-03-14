@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ajax загрузка файлов</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript"  src="/js/e1.js"></script>
+<style type="text/css">
+#add_field {
+	display: inline-block;
+	padding: 3px 7px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+<form action="e1.php" method="post" id="my_form" enctype="multipart/form-data">
+	<p>
+    <label for="fio">Ф.И.О:</label>
+      <input type="text" name="fio" id="fio">
+  </p>
+  <label for="avatar">Выберите файлы для загрузки:</label><br>
+    <input type="file" name="myfile[]"><span id="add_field">Ещё бы полей</span>
+    <div id="additional_fields"></div>
+  <p>
+  	<input type="submit" id="submit" value="Отправить">
+  </p>
+</form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+/*=============================*/
+/*  Меню с кнопкой входа в ЛК */
+/*============================*/
+#menuR{
+    width: 95%;
+    position: absolute; 
+    z-index: 1;
+    text-align: right;
+    /* background-color: blue; */     
+}

@@ -1,0 +1,20 @@
+/*======================*/
+/*   стили регистрация  */
+/*======================*/
+
+#reginfo{
+    float: left;
+	width: 96%;
+    padding: 1% 2%; 
+   /* background-color: azure; */
+    text-align: center;
+    margin-top: 10%;
+}
+
+#reginfo > span{
+    font-size: 1.5em;
+}
+
+.reg{
+    margin-top: 1%;
+}

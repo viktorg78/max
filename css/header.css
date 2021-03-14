@@ -1,0 +1,15 @@
+
+header{
+	padding: 5px 5% 5px 2%; 
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 93%;
+	background-color: #fff;
+	color: #0094ff;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+header>span{
+	float: right;
+	letter-spacing: 6px;
+	color: black;
+}
